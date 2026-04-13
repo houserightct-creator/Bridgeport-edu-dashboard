@@ -34,7 +34,6 @@ const deficitBreakdown = [
   { name: "Remaining Gap", value: 7.5, color: "#8892a4" },
 ];
 
-const cutsApril2025 = [
   { item: "Teachers Eliminated", count: 20, type: "positions" },
   { item: "Students Lose Busing", count: 2400, type: "students" },
   { item: "Librarians Eliminated", count: 12, type: "positions" },
