@@ -34,7 +34,6 @@ const deficitBreakdown = [
   { name: "Remaining Gap", value: 7.5, color: "#8892a4" },
 ];
 
-];
 
 const highNeedStudents = [
   { year: "2019-20", pct: 82.5, ell: 20.3 },
