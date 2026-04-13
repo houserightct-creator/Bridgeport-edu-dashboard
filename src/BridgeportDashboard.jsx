@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
-  LineChart, Line, PieChart, Pie, Cell, Legend, ReferenceLine
+  LineChart, Line, PieChart, Pie, Cell, Legend,
 } from "recharts";
 
 const COLORS = {
@@ -34,11 +34,6 @@ const deficitBreakdown = [
   { name: "Remaining Gap", value: 7.5, color: "#8892a4" },
 ];
 
-  { item: "Teachers Eliminated", count: 20, type: "positions" },
-  { item: "Students Lose Busing", count: 2400, type: "students" },
-  { item: "Librarians Eliminated", count: 12, type: "positions" },
-  { item: "Positions Cut (Nov–Apr)", count: 75, type: "positions" },
-  { item: "Total Positions Since 2015", count: 300, type: "positions" },
 ];
 
 const highNeedStudents = [
